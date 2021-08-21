@@ -1,0 +1,12 @@
+{
+  "name": "blackbird",
+  "version": "1.0.0",
+  "description": "A Promises/A+ conformant implementation",
+  "main": "blackbird.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
