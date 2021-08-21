@@ -5,7 +5,7 @@ const buildPromise = (pet) => {
         setTimeout(() => {
             if (pet === 'dog') return resolve('good pet');
             return reject('bad pet');
-        }, 3000); 
+        }, 1000); 
     });
 }
 
