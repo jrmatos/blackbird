@@ -1,6 +1,5 @@
 const Blackbird = require("./blackbird")
 
-
 const buildPromise = (pet) => {
     return new Blackbird((resolve, reject) => {
         setTimeout(() => {
@@ -12,11 +11,8 @@ const buildPromise = (pet) => {
 
 const promise = buildPromise('dog');
 
-console.log(promise.state);
-
 promise.then((value) => {
     console.log(value);
-    console.log(promise.state);
 }, (reason) => {
     console.log(reason);
 });
